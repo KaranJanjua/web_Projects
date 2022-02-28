@@ -88,6 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\LoginPageStyle.css" />
     <Content Include="Global.asax" />
     <Content Include="images\bg.jpg" />
     <Content Include="Web.config" />

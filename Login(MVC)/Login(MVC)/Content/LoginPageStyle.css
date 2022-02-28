@@ -1,0 +1,11 @@
+﻿body {
+	background-image: url('../../images/bg.jpg');
+	background-repeat: no-repeat;
+}
+
+.Main {
+	margin: 300px ;
+	border: 1px solid #ffffff;
+	display: flex;
+	justify-content: center;
+}
