@@ -4,20 +4,37 @@
     Layout = "~/Views/_LayoutPage.cshtml";
 }
 <body>
-<div class="Main">
-        <form action="" method="">
-    <div class="form-group">
-            <div>
-                <label> Username:</label>
-                <input />
-            </div>
-            <div>
-                <label> Password:</label>
-                <input />
-            </div>
-            <button>Submit</button>
+    <div class="head form-text text-muted">
+        <h2 >Welcome to the Great Gatsby Ranges</h2>
     </div>
-        </form>
-</div>    
+    <div class="Main">
 
+        <form action="Verify" method="post"> 
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="text" class="form-control" id="UsernameInput" name="Name" placeholder="Enter Username">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="Password" placeholder="Password">
+            </div>
+            
+            <div class="form-group">
+                <a href="" class="link-primary">Forgot Password?</a>
+            </div>
+
+            <div class="form-btn">
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </div>
+            
+            <div class="form-btn-cancel">
+                <button type="submit" class="btn btn-danger ">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
 </body>

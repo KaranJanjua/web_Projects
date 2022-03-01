@@ -26,7 +26,7 @@ namespace Login_MVC_.Controllers
         {
             con.ConnectionString = "Data Source= KARANBIRJANFBF6\\SQLSERVER ;Initial Catalog=Test;Integrated Security=SSPI;";
         }
-
+        [HttpPost]
         public ActionResult Verify(Account acc) 
         {
             ConnectionString();
@@ -37,12 +37,12 @@ namespace Login_MVC_.Controllers
             if (dr.Read())
             {
                 con.Close();
-                return View();
+                return View("Logged_In");
             }
             else 
             {
                 con.Close();
-                return View(); 
+                return View("Error"); 
             }
         }
     }

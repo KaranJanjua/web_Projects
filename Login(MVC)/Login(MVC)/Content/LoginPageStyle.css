@@ -3,9 +3,28 @@
 	background-repeat: no-repeat;
 }
 
+.head{
+	position:absolute;
+	top:15%;
+	left:40%;
+}
+
 .Main {
-	margin: 300px ;
-	border: 1px solid #ffffff;
-	display: flex;
-	justify-content: center;
+	position:absolute;
+	top:40%;
+	left:40%;
+}
+
+.form-group {
+	margin: 15px 15px 15px 15px;
+}
+
+.form-btn{
+	padding: 15px;
+	float:right;
+}
+
+.form-btn-cancel{
+	padding: 15px;
+	float:left;
 }
